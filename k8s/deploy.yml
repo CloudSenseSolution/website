@@ -17,6 +17,7 @@ spec:
       containers:
       - name: cloudsensesolution
         image: vivek6899/cloudsensesolution:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---
