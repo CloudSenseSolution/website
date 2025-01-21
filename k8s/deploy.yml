@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cloudsensesolution
-        image: vivek6899/cloudsensesolution:v1
+        image: vivek6899/cloudsensesolution:latest
         ports:
         - containerPort: 80
 ---
